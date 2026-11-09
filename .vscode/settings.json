@@ -1,0 +1,11 @@
+{
+  "ragnarok.embeddingBackend": "huggingface",
+  "ragnarok.topK": 10,
+  "ragnarok.chunkSize": 400,
+  "ragnarok.chunkOverlap": 50,
+  "ragnarok.retrievalStrategy": "vector",
+  "ragnarok.maxIterations": 3,
+  "ragnarok.confidenceThreshold": 0.7,
+  "ragnarok.llmModel": "gpt-4o-mini",
+  "ragnarok.includeWorkspaceContext": true
+}
